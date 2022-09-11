@@ -1,0 +1,30 @@
+[0.484s] Invoking command in '/home/student/dev_ws/src/build/skibot': AMENT_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/student/dev_ws/src/install/skibot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages:/home/student/dev_ws/src/install/skibot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/dev_ws/src/install/skibot --editable --build-directory /home/student/dev_ws/src/build/skibot/build --no-deps install_data --install-dir /home/student/dev_ws/src/install/skibot
+[0.637s] running develop
+[0.732s] running egg_info
+[0.732s] creating skibot.egg-info
+[0.732s] writing skibot.egg-info/PKG-INFO
+[0.732s] writing dependency_links to skibot.egg-info/dependency_links.txt
+[0.732s] writing entry points to skibot.egg-info/entry_points.txt
+[0.732s] writing requirements to skibot.egg-info/requires.txt
+[0.732s] writing top-level names to skibot.egg-info/top_level.txt
+[0.733s] writing manifest file 'skibot.egg-info/SOURCES.txt'
+[0.793s] reading manifest file 'skibot.egg-info/SOURCES.txt'
+[0.794s] writing manifest file 'skibot.egg-info/SOURCES.txt'
+[0.815s] running build_ext
+[0.816s] Creating /home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages/site.py
+[0.816s] Creating /home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages/skibot.egg-link (link to .)
+[0.817s] Installing skibot_node script to /home/student/dev_ws/src/install/skibot/lib/skibot
+[0.817s] 
+[0.817s] Installed /home/student/dev_ws/src/build/skibot
+[0.817s] running install_data
+[0.818s] creating /home/student/dev_ws/src/install/skibot/share/ament_index
+[0.818s] creating /home/student/dev_ws/src/install/skibot/share/ament_index/resource_index
+[0.818s] creating /home/student/dev_ws/src/install/skibot/share/ament_index/resource_index/packages
+[0.818s] copying resource/skibot -> /home/student/dev_ws/src/install/skibot/share/ament_index/resource_index/packages
+[0.818s] copying package.xml -> /home/student/dev_ws/src/install/skibot/share/skibot
+[0.818s] creating /home/student/dev_ws/src/install/skibot/share/skibot/images
+[0.818s] copying images/arrow.png -> /home/student/dev_ws/src/install/skibot/share/skibot/images/
+[0.818s] copying images/indigo.png -> /home/student/dev_ws/src/install/skibot/share/skibot/images/
+[0.818s] creating /home/student/dev_ws/src/install/skibot/share/skibot/launch
+[0.818s] copying launch/skibot_launch.py -> /home/student/dev_ws/src/install/skibot/share/skibot/launch/
+[0.837s] Invoked command in '/home/student/dev_ws/src/build/skibot' returned '0': AMENT_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/student/dev_ws/src/install/skibot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages:/home/student/dev_ws/src/install/skibot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/dev_ws/src/install/skibot --editable --build-directory /home/student/dev_ws/src/build/skibot/build --no-deps install_data --install-dir /home/student/dev_ws/src/install/skibot

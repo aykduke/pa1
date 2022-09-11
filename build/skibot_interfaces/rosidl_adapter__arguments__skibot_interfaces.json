@@ -1,0 +1,7 @@
+{
+  "package_name": "skibot_interfaces",
+  "non_idl_tuples": [
+    "/home/student/dev_ws/src/skibot/skibot_interfaces:msg/Pose.msg",
+    "/home/student/dev_ws/src/skibot/skibot_interfaces:srv/Teleport.srv"
+  ]
+}

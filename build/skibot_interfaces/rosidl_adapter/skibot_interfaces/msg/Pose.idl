@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from skibot_interfaces/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+
+module skibot_interfaces {
+  module msg {
+    struct Pose {
+      float x;
+
+      float y;
+
+      float theta;
+
+      float x_velocity;
+
+      float y_velocity;
+
+      float theta_velocity;
+    };
+  };
+};

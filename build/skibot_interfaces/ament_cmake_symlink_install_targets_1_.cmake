@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/student/dev_ws/src/build/skibot_interfaces/libskibot_interfaces__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "skibot_interfaces__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

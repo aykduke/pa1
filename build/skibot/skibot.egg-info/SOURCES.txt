@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+images/arrow.png
+images/indigo.png
+launch/skibot_launch.py
+resource/skibot
+skibot/__init__.py
+skibot/skibot_node.py
+skibot.egg-info/PKG-INFO
+skibot.egg-info/SOURCES.txt
+skibot.egg-info/dependency_links.txt
+skibot.egg-info/entry_points.txt
+skibot.egg-info/requires.txt
+skibot.egg-info/top_level.txt
+skibot.egg-info/zip-safe

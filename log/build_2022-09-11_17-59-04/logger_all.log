@@ -1,0 +1,213 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.087s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f589df7ba60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f589df7ba60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f589df86040>)
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.102s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/dev_ws/src'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'ros'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extensions ['cmake', 'python']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'cmake'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'python'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extensions ['python_setup_py']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot) by extension 'python_setup_py'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot) by extension 'ros'
+[0.111s] DEBUG:colcon.colcon_core.package_identification:Package 'skibot/skibot' with type 'ros.ament_python' and name 'skibot'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(skibot/skibot_interfaces) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'skibot/skibot_interfaces' with type 'ros.ament_cmake' and name 'skibot_interfaces'
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.131s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/student/turtlebot3_ws/install
+[0.132s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/foxy
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'skibot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] DEBUG:colcon.colcon_core.verb:Building package 'skibot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/dev_ws/src/build/skibot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/dev_ws/src/install/skibot_interfaces', 'merge_install': False, 'path': '/home/student/dev_ws/src/skibot/skibot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'cmake_target' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'skibot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] DEBUG:colcon.colcon_core.verb:Building package 'skibot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/dev_ws/src/build/skibot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/dev_ws/src/install/skibot', 'merge_install': False, 'path': '/home/student/dev_ws/src/skibot/skibot', 'symlink_install': True, 'test_result_base': None}
+[0.174s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/dev_ws/src/skibot/skibot_interfaces' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/dev_ws/src/skibot/skibot_interfaces'
+[0.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/dev_ws/src/build/skibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/jmu_turtlebot3_bringup:/opt/ros/foxy /usr/bin/cmake /home/student/dev_ws/src/skibot/skibot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/dev_ws/src/install/skibot_interfaces
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/dev_ws/src/build/skibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/jmu_turtlebot3_bringup:/opt/ros/foxy /usr/bin/cmake /home/student/dev_ws/src/skibot/skibot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/dev_ws/src/install/skibot_interfaces
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/dev_ws/src/build/skibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/jmu_turtlebot3_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/student/dev_ws/src/build/skibot_interfaces -- -j16 -l16
+[3.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/dev_ws/src/build/skibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/jmu_turtlebot3_bringup:/opt/ros/foxy /usr/bin/cmake --build /home/student/dev_ws/src/build/skibot_interfaces -- -j16 -l16
+[3.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/dev_ws/src/build/skibot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/jmu_turtlebot3_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/student/dev_ws/src/build/skibot_interfaces
+[3.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skibot_interfaces)
+[3.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/dev_ws/src/build/skibot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/jmu_turtlebot3_bringup:/opt/ros/foxy /usr/bin/cmake --install /home/student/dev_ws/src/build/skibot_interfaces
+[3.796s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces' for CMake module files
+[3.796s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces' for CMake config files
+[3.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot_interfaces', 'cmake_prefix_path')
+[3.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/cmake_prefix_path.ps1'
+[3.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/cmake_prefix_path.dsv'
+[3.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/cmake_prefix_path.sh'
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/lib'
+[3.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot_interfaces', 'ld_library_path_lib')
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/ld_library_path_lib.ps1'
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/ld_library_path_lib.dsv'
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/ld_library_path_lib.sh'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/bin'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/lib/pkgconfig/skibot_interfaces.pc'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/lib/python3.8/site-packages'
+[3.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot_interfaces', 'pythonpath')
+[3.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/pythonpath.ps1'
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/pythonpath.dsv'
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/pythonpath.sh'
+[3.802s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/bin'
+[3.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.ps1'
+[3.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.dsv'
+[3.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.sh'
+[3.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.bash'
+[3.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.zsh'
+[3.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/dev_ws/src/install/skibot_interfaces/share/colcon-core/packages/skibot_interfaces)
+[3.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skibot_interfaces)
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces' for CMake module files
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces' for CMake config files
+[3.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot_interfaces', 'cmake_prefix_path')
+[3.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/cmake_prefix_path.ps1'
+[3.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/cmake_prefix_path.dsv'
+[3.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/cmake_prefix_path.sh'
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/lib'
+[3.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot_interfaces', 'ld_library_path_lib')
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/ld_library_path_lib.ps1'
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/ld_library_path_lib.dsv'
+[3.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/ld_library_path_lib.sh'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/bin'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/lib/pkgconfig/skibot_interfaces.pc'
+[3.907s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/lib/python3.8/site-packages'
+[3.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot_interfaces', 'pythonpath')
+[3.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/pythonpath.ps1'
+[3.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/pythonpath.dsv'
+[3.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/hook/pythonpath.sh'
+[3.909s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot_interfaces/bin'
+[3.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.ps1'
+[3.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.dsv'
+[3.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.sh'
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.bash'
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot_interfaces/share/skibot_interfaces/package.zsh'
+[3.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/dev_ws/src/install/skibot_interfaces/share/colcon-core/packages/skibot_interfaces)
+[3.913s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/dev_ws/src/skibot/skibot' with build type 'ament_python'
+[3.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot', 'ament_prefix_path')
+[3.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot/share/skibot/hook/ament_prefix_path.ps1'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot/share/skibot/hook/ament_prefix_path.dsv'
+[3.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot/share/skibot/hook/ament_prefix_path.sh'
+[3.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.078s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/dev_ws/src/skibot/skibot'
+[4.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/dev_ws/src/build/skibot': AMENT_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/student/dev_ws/src/install/skibot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages:/home/student/dev_ws/src/install/skibot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/dev_ws/src/install/skibot --editable --build-directory /home/student/dev_ws/src/build/skibot/build --no-deps install_data --install-dir /home/student/dev_ws/src/install/skibot
+[4.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot', 'pythonpath_develop')
+[4.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/build/skibot/share/skibot/hook/pythonpath_develop.ps1'
+[4.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/dev_ws/src/build/skibot' returned '0': AMENT_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/dev_ws/src/install/skibot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/student/dev_ws/src/install/skibot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages:/home/student/dev_ws/src/install/skibot_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/student/dev_ws/src/install/skibot --editable --build-directory /home/student/dev_ws/src/build/skibot/build --no-deps install_data --install-dir /home/student/dev_ws/src/install/skibot
+[4.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/build/skibot/share/skibot/hook/pythonpath_develop.dsv'
+[4.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/build/skibot/share/skibot/hook/pythonpath_develop.sh'
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot' for CMake module files
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot' for CMake config files
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot/lib'
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot/bin'
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot/lib/pkgconfig/skibot.pc'
+[4.754s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages'
+[4.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('skibot', 'pythonpath')
+[4.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot/share/skibot/hook/pythonpath.ps1'
+[4.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/dev_ws/src/install/skibot/share/skibot/hook/pythonpath.dsv'
+[4.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/dev_ws/src/install/skibot/share/skibot/hook/pythonpath.sh'
+[4.755s] Level 1:colcon.colcon_core.environment:checking '/home/student/dev_ws/src/install/skibot/bin'
+[4.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(skibot)
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot/share/skibot/package.ps1'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/dev_ws/src/install/skibot/share/skibot/package.dsv'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot/share/skibot/package.sh'
+[4.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot/share/skibot/package.bash'
+[4.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/dev_ws/src/install/skibot/share/skibot/package.zsh'
+[4.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/dev_ws/src/install/skibot/share/colcon-core/packages/skibot)
+[4.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.757s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.757s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.762s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.765s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.766s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/dev_ws/src/install/local_setup.ps1'
+[4.767s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/dev_ws/src/install/_local_setup_util_ps1.py'
+[4.768s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/dev_ws/src/install/setup.ps1'
+[4.769s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/dev_ws/src/install/local_setup.sh'
+[4.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/dev_ws/src/install/_local_setup_util_sh.py'
+[4.770s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/dev_ws/src/install/setup.sh'
+[4.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/dev_ws/src/install/local_setup.bash'
+[4.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/dev_ws/src/install/setup.bash'
+[4.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/dev_ws/src/install/local_setup.zsh'
+[4.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/dev_ws/src/install/setup.zsh'

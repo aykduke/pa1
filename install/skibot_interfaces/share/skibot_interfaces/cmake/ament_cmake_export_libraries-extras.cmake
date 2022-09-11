@@ -1,0 +1,1 @@
+/home/student/dev_ws/src/build/skibot_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

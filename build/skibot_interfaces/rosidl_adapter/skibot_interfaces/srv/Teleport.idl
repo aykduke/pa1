@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from skibot_interfaces/srv/Teleport.srv
+// generated code does not contain a copyright notice
+
+
+module skibot_interfaces {
+  module srv {
+    struct Teleport_Request {
+      float x;
+
+      float y;
+
+      float theta;
+    };
+    struct Teleport_Response {
+      boolean success;
+    };
+  };
+};

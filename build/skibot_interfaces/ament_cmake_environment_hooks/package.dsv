@@ -1,0 +1,4 @@
+source;share/skibot_interfaces/local_setup.bash
+source;share/skibot_interfaces/local_setup.dsv
+source;share/skibot_interfaces/local_setup.sh
+source;share/skibot_interfaces/local_setup.zsh

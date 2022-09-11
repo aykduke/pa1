@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating skibot.egg-info
+writing skibot.egg-info/PKG-INFO
+writing dependency_links to skibot.egg-info/dependency_links.txt
+writing entry points to skibot.egg-info/entry_points.txt
+writing requirements to skibot.egg-info/requires.txt
+writing top-level names to skibot.egg-info/top_level.txt
+writing manifest file 'skibot.egg-info/SOURCES.txt'
+reading manifest file 'skibot.egg-info/SOURCES.txt'
+writing manifest file 'skibot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages/site.py
+Creating /home/student/dev_ws/src/install/skibot/lib/python3.8/site-packages/skibot.egg-link (link to .)
+Installing skibot_node script to /home/student/dev_ws/src/install/skibot/lib/skibot
+
+Installed /home/student/dev_ws/src/build/skibot
+running install_data
+creating /home/student/dev_ws/src/install/skibot/share/ament_index
+creating /home/student/dev_ws/src/install/skibot/share/ament_index/resource_index
+creating /home/student/dev_ws/src/install/skibot/share/ament_index/resource_index/packages
+copying resource/skibot -> /home/student/dev_ws/src/install/skibot/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/dev_ws/src/install/skibot/share/skibot
+creating /home/student/dev_ws/src/install/skibot/share/skibot/images
+copying images/arrow.png -> /home/student/dev_ws/src/install/skibot/share/skibot/images/
+copying images/indigo.png -> /home/student/dev_ws/src/install/skibot/share/skibot/images/
+creating /home/student/dev_ws/src/install/skibot/share/skibot/launch
+copying launch/skibot_launch.py -> /home/student/dev_ws/src/install/skibot/share/skibot/launch/
